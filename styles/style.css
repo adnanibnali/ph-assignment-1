@@ -6,10 +6,13 @@
     font-family: "Fira Sans", serif;
     margin: 0;
 }
+body{
+    background-color: #F1F1F3;
+}
 /* Navbar Styles Starts Here */
 .navBar{
     width: 1536px;
-    margin: 10px auto;
+    margin: 25px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +36,7 @@
     width: 1536px;
     height: 672px;
     background-color: #C6E4D6;
-    margin: 25px auto;
+    margin: 50px auto;
     border-radius: 28px;
     display: flex;
     justify-content: center;
