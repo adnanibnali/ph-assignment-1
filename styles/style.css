@@ -19,7 +19,6 @@ body{
 }
 .webLogo{
     font-size: 40px;
-    
 }
 .btnOutline{
     color: #006A50;
@@ -65,4 +64,44 @@ body{
 .heroImg{
     width: 568px;
     height: 480px;
+}
+/* pillarContainer Styles Starts Here */
+.pillarContainer{
+    width: 1536px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.pillarHead{
+    font-size: 48px;
+}
+.pillarCardsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.pillarCard{
+    width: 300px;
+    height: 230px;
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid rgba(92, 91, 91, 0.199);
+}
+.pillarCardHeading{
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 80%;
+}
+.pillarImg{
+    width: 77px;
+}
+.pillarCardDes{
+    font-size: 19px;
+    opacity: 80%;
+    max-width: 300px;
 }
