@@ -105,3 +105,80 @@ body{
     opacity: 80%;
     max-width: 300px;
 }
+
+/* Vision Section Styles Starts Here */
+.visionContainer{
+    width: 1536px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.visionDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.visionHeading{
+    font-size: 48px;
+}
+.visionDes{
+    font-size: 19px;
+    opacity: 80%;
+}
+.visionCardsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.visionCard{
+    width: 400px;
+    height: 300px;
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid rgba(92, 91, 91, 0.199);
+}
+.visionImg{
+    width: 77px;
+}
+.visionCardHeading{
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 80%;
+}
+.visionCardDes{
+    font-size: 19px;
+    opacity: 80%;
+}
+.cardBtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: transparent;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+/* Declaring Some Colors */
+.lightBlue{
+    background-color: rgba(84, 143, 245, 0.2);
+}
+.lightGreen{
+    background-color: rgba(9, 161, 93, 0.2);
+}
+.lightBrown{
+    background-color: #F7EBCF;
+}
+.blue{
+    background-color: #5490F5;
+}
+.green{
+    background-color: #09A15C;
+}
+.brown{
+    background-color: #FFC239;
+}
