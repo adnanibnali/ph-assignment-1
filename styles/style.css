@@ -182,3 +182,40 @@ body{
 .brown{
     background-color: #FFC239;
 }
+
+/* Quote Styles Starts Here */
+.quote{
+    width: 1456px;
+    height: 307px;
+    margin: 50px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    border-radius: 19px;
+    border: 1px solid rgba(128, 128, 128, 0.355);
+    
+}
+.quotePara{
+    max-width: 1478px;
+    font-size: 19px;
+    opacity: 80%;
+    padding: 30px 0;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+}
+.speaker{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.speakerName{
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 80%;
+}
+.speakerPost{
+    font-size: 19px;
+    opacity: 60%;
+}
