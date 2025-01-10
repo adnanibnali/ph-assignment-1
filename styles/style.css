@@ -4,6 +4,7 @@
 /* adding universal styles */
 *{
     font-family: "Fira Sans", serif;
+    margin: 0;
 }
 /* Navbar Styles Starts Here */
 .navBar{
@@ -24,7 +25,41 @@
     width: 139px;
     font-size: x-large;
     font-weight: 500;
-    /* font-weight: bold; */
     border: 2px solid #006A50;
     border-radius: 9px;
+}
+/* Hero Styles Starts Here */
+.hero{
+    width: 1536px;
+    height: 672px;
+    background-color: #C6E4D6;
+    margin: 25px auto;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    
+}
+.heroSubHeading{
+    font-size: 29px;
+    font-weight: 500;
+    opacity: 50%;
+}
+.heroHeading{
+    font-size: 67px;
+    margin: 20px 0;
+}
+.btnPrimary{
+    font-size: 21px;
+    color: white;
+    background-color: #006A50;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 9px;
+    font-weight: 500;
+}
+.heroImg{
+    width: 568px;
+    height: 480px;
 }
