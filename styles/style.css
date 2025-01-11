@@ -287,3 +287,6 @@ body{
     border-radius: 9px;
     font-weight: 500;
 }
+.reversedTemplate{
+    flex-direction: row-reverse;
+}
