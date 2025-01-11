@@ -29,6 +29,8 @@ body{
     font-weight: 500;
     border: 2px solid #006A50;
     border-radius: 9px;
+    transition: .5s all;
+    cursor: pointer;
 }
 /* Hero Styles Starts Here */
 .hero{
@@ -60,6 +62,8 @@ body{
     border: none;
     border-radius: 9px;
     font-weight: 500;
+    transition: .5s all;
+    cursor: pointer;
 }
 .heroImg{
     width: 568px;
@@ -162,6 +166,8 @@ body{
     font-weight: 600;
     color: white;
     border: none;
+    cursor: pointer;
+    transition: .5s all;
 }
 /* Declaring Some Colors */
 .lightBlue{
@@ -286,6 +292,8 @@ body{
     border: none;
     border-radius: 9px;
     font-weight: 500;
+    transition: .5s all;
+    cursor: pointer;
 }
 .reversedTemplate{
     flex-direction: row-reverse;
@@ -320,6 +328,8 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 19px;
+    transition: .5s all;
+    cursor: pointer;
 }
 .amountCard> h2{
     font-size: 48px;
@@ -343,6 +353,8 @@ body{
     border: none;
     border-radius: 9px;
     font-weight: 500;
+    cursor: pointer;
+    transition: .5s all;
 }
 /* Newsletter Styles Starts Here */
 .newsletter{
@@ -388,6 +400,8 @@ body{
     border: none;
     border-radius: 0 10px 10px 0;
     font-weight: 500;
+    cursor: pointer;
+    transition: .5s all;
 }
 /* Footer Styles Starts Here */
 footer{
@@ -416,4 +430,35 @@ footer{
 .socialIcon{
     width: 28px;
     height: 28px;
+}
+/* Hover Styles Starts Here */
+.btnOutline:hover{
+    color: white;
+    background-color: #006A50;
+}
+.btnPrimary:hover, .newsBtn:hover, .subscribe:hover, .donateNow:hover{
+    background-color: #004332;
+}
+.amountCard:hover{
+    background-color: #C6E4D6;
+}
+.blue:hover{
+    background-color: #2c5db1;
+}
+.green:hover{
+    background-color: #06683c;
+}
+.brown:hover{
+    background-color: #b48311;
+}
+
+
+
+
+
+.blue{
+}
+.green{
+}
+.brown{
 }
