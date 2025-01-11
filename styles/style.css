@@ -290,3 +290,54 @@ body{
 .reversedTemplate{
     flex-direction: row-reverse;
 }
+/* Donate Section Styles Starts Here */
+.donetContainer{
+    width: 1536px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.donateHead{
+    font-size: 48px;
+}
+.donateDes{
+    max-width: 1300px;
+    font-size: 19px;
+    opacity: 60%;
+    text-align: center;
+}
+.amountContainer{
+    display: flex;
+    gap: 30px;
+}
+.amountCard{
+    width: 288px;
+    height: 153px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+}
+.amountCard> h2{
+    font-size: 48px;
+}
+.inputAmount{
+    width: 1238px;
+    height: 76px;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+}
+.donateNow{
+    width: 166px;
+    font-size: 21px;
+    color: white;
+    background-color: #006A50;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 9px;
+    font-weight: 500;
+}
